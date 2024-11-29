@@ -1,0 +1,150 @@
+.color{
+    background-color: #098150; 
+}
+.color2{
+    background-color: #ffff; 
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.rect{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 190px;
+    background: #098150;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    margin-top: 0px;
+    margin-right: auto;
+}
+.banerp{
+    position: static;
+    margin-top: 30%;
+    margin-left: 95%;
+    width: 200%;
+    height: 200%;
+    cursor: pointer;
+}
+.banera{
+    position: fixed;
+    top: 0%;
+    left: 39%;
+    height: 25%;
+}
+.titulo{
+    color:rgb(68, 161, 68);
+    font-size: x-large;
+    font-weight: bold;
+    position: fixed;
+    bottom: 63%;
+    width: 100%;
+    text-align: center;
+}
+.leyenda{
+    color:rgb(143, 209, 143);
+    font-size:larger;
+    /*con esto fijamos el texto a la parte inferior de la pantalla */
+    font-weight: bold;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+form{
+    position: fixed;
+    font-size: larger;
+    bottom: 25%;
+    border: 1 px solid #ccc;
+    border-radius: 1em;
+}
+.contenedor{
+    width: all;
+    display: flex;
+    align-items: flex-start;
+}
+.contenedor2{
+    width: 50%;
+    margin-left: 16%;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-gap: 10px;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: #098150;
+    color: #ffff;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 0.5em;
+}   
+.boton{
+    border-radius: 50px;
+    background: #098150;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    left: 45%;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.botona{
+    border-radius: 50px;
+    background: #098150;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    left: 30%;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.botonv{
+    border-radius: 50px;
+    background: #098150;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    left: 60%;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.leyenda2{
+    color:rgb(157, 158, 157);
+    font-size: x-large;
+    font-weight: bolder;
+    bottom: 20%;
+    left: 50%;
+}
+.texto_datos{
+    color:rgb(157, 158, 157);
+    font-size: x-large;
+    font-weight: bolder;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+.despedida{
+    position: static;
+    margin-top: 48%;
+    margin-left: 105%;
+    width: 170%;
+    height: 150%;
+    cursor: pointer;
+}
